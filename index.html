@@ -3,10 +3,183 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Gitesh Sutar</title>
 </head>
 <body>
-    Portfolio
+    <section id="home"></section>
+    <header>
+        <nav id="navbar">
+            <h2> < Gitesh Sutar /> </h2>
+            
+        </nav>
+        <div class="links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills-section">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- mobile css -->
+        <div class="mob-icon">
+            <i class="fa-solid fa-bars" onclick="Shownav()"></i>
+        </div>
+
+        <div id="mob-links">
+            <div id="menu-close">
+                <i  onclick="Closenav()" class="far fa-window-close"></i>
+            </div>
+            <ul>
+                <li><a href="#home" onclick="Closenav()">Home</a></li>
+                <li><a href="#about" onclick="Closenav()">About</a></li>
+                <li><a href="#skills-section" onclick="Closenav()">Skills</a></li>
+                <li><a href="#project" onclick="Closenav()">Projects</a></li>
+                <li><a href="#contact" onclick="Closenav()">Contact</a></li>
+            </ul>
+        </div>
+        
+        
+        
+    </header>
+     <!-- Main Section -->
+    <main>
+        <div id="hero-section">
+            <div id="hero-text">
+                <h3>Hi, I'm </h3>
+                <h4>Gitesh Sutar</h4>
+                <h5>A Full stack Web Developer</h5>
+
+                <div id="hero-icons">
+                    <i class="fa-brands fa-linkedin" onclick="redirect('https://linkedin.com/in/gitesh-sutar')"></i>
+                    <i class="fa-brands fa-github" onclick="redirect('https://github.com/gitesh8')"></i>
+
+                    <button id="projects-b" onclick="download('https://drive.google.com/u/0/uc?id=1s5uz_QRYRpQxwqd23b34ouMm5qLoET8j&export=download')"> <span><i class="fa-solid fa-download"></i></span> Resume</button>
+                </div>
+            </div>
+             <div id="hero-image">
+                <img width="100%"src="img/hero.gif" alt="Coding ">
+             </div>
+        </div>
+    </main>
+
+    <!-- About me Section -->
+    
+    <section id="about">
+        <div class="title">About Me</div>
+        <div class="divider"></div>
+
+        
+       <div id="about-me">
+         <div>
+           <div id="about-img">
+            <img src="img/about-me.jpg" alt="Profile">
+           </div>
+        </div>
+        <div>
+            <p>Hi, I'm Gitesh Sutar a passionate web developer who like to explore and learn new thing, 
+                currently aspiring full stack web developer at masai school.
+            </p>
+
+        </div>
+       </div>
+
+    </section>
+
+    <section id="skills-section">
+        <div class="title">Skills</div>
+        <div class="divider"></div>
+
+        
+       <div id="skills">
+        <div>
+            <div class="skills-img"><img src="img/html.png" alt=""></div>
+            <div class="skills-img"><img src="img/css.png" alt=""></div>
+            <div class="skills-img"><img src="img/js.png" alt=""></div>
+            <div class="skills-img"><img src="img/java.png" alt=""></div>
+            
+        </div>
+        <div>
+            <div class="skills-img"><img src="img/bootstrap.jpg" alt=""></div>
+            <div class="skills-img"><img src="img/mysql.png" alt=""></div>
+            <div class="skills-img"><img src="img/php.png" alt=""></div>
+            <div class="skills-img"><img src="img/springboot.png" alt=""></div>
+        </div>
+       </div>
+
+    </section>
+    <section id="project">
+        <div class="title">Projects</div>
+        <div class="divider"></div>
+
+        <div id="main-projects">
+ 
+            <div class="p1">
+                <div>
+                    <div class="p-img">
+                        <img src="img/apple-tv.PNG" alt="">
+                    </div>
+                    <div id="icons">
+                        <div>
+                            <i class="fa-brands fa-github" onclick="redirect('https://github.com/arnab9593/appletv')"></i>
+                            <button id="projects-b" onclick="redirect('https://applte-tv.netlify.app/')"> Live </button>
+                        </div>
+                    </div>
+                    <div id="p-desc">
+                        <span>
+                            Apple tv website clone. Apple tv is a streming website where user can strem any series or movies
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="p1">
+                <div>
+                   <div class="p-img">
+                      <img src="img/olx.PNG" alt="">
+                   </div>
+                </div>
+                <div id="icons">
+                    <div>
+                        <i class="fa-brands fa-github" onclick="redirect('https://github.com/amanvyas1/obeisant-stem-2172')"></i>
+                        <button id="projects-b" onclick="redirect('https://olx-in.netlify.app/')"> Live </button>
+                    </div>
+
+                </div>
+                <div id="p-desc">
+                    <span>
+                        OLX India (clone) offers online local classified ads in India, where any user can post or see ads.
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+    
+
+    <section id="contact">
+
+        <div class="title">Contact</div>
+        <div class="divider"></div>
+        <div id="contact-1">
+           <div id="info">
+               <h4>Email:- giteshsutar88@gmail.com</h4>
+               <h4>Mobile :- +91 9372779418</h4>
+           </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <span>Created By Gitesh Sutar</span>
+        </div>
+    </footer>
+
+
     
 </body>
+<script src="scripts/script.js"></script>
 </html>

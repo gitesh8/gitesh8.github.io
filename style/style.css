@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+i.fa-brands.fa-github {
+    cursor: pointer;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+}
+#p-desc {
+    text-align: justify;
+}
+@media (min-width:781px) {
+
+    #hero-section{
+        grid-template-columns: 1fr 0.7fr;
+
+    }
+    #about-me{
+        grid-template-columns: 1fr 1.3fr;
+
+    }
+    #about-me{
+        width: 90%;
+        display: grid;
+        margin: auto;
+        margin-top: 4rem;
+        align-items: center;
+    }
+    #main-projects{
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
+        gap: 108px;
+        margin-top: 62px;
+        margin-bottom: 69px;
+    }
+    
+}
+/* Scroll bar scc */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #dddddd;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(128, 128, 128, 0.514);
+    border-radius: 5px;
+}
+/* Scroll bar css end */
+a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+.links>ul>li>a:hover{
+    border: 2px solid;
+    border-width: 0px 0px 2px 0px;
+    
+}
+
+li{
+    list-style: none;
+}
+header{
+    padding: 0rem 1.5rem 0 1rem;
+    height: 50px;
+    background-color: #000080;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+    position: fixed;
+
+    
+}
+
+.links ul{
+    display: flex;
+    gap: 40px;
+}
+.links ul > li>a{
+    color: white;
+    font-size: 18px;
+}
+
+.mob-icon, #mob-links{
+    display: none;
+}
+
+/* Hero Section start */
+
+#hero-icons>i {
+    font-size: 38px;
+    margin: 26px 12px 0px 19px;
+    cursor: pointer;
+}
+#hero-icons>button {
+    padding: 7px 29px;
+   cursor: pointer;
+}
+#hero-section{
+    display: grid;
+    width: auto;
+    align-items: center;
+    height: 90vh;
+    margin-bottom: 6rem;
+}
+#hero-image {
+    width: 100%;
+}
+/* #hero-section>div>h3{
+    font-size: 12px;
+} */
+#hero-text {
+    width: 83%;
+    margin: auto;
+}
+#hero-text h3 {
+    font-size: 35px;
+    line-height: 59px;
+}
+#hero-text h4 {
+    font-size: 58px;
+    line-height: 5rem;
+}
+#hero-text h5 {
+    font-size: 40px;
+    line-height: 5rem;
+}
+/* Header css ended */
+
+/* About me  starts */
+
+.title {
+    margin: 25px;
+    text-align: center;
+    font-size: 43px;
+    font-weight: bold;
+}
+.divider {
+    width: 4%;
+    margin: auto;
+    height: 2px;
+    background: #00000030;
+}
+#about {
+    background: #80808005;
+    padding-top: 1px;
+}
+
+#about-img{
+    width: 60%;
+}
+#about-img>img{
+    border-radius: 50%;
+    border: 3px solid;
+}
+#about-me>div:nth-child(2)>p{
+    font-size: 30px;
+}
+/* about section end */
+/* skilss start */
+.skills-img {
+    width: 40%;
+}
+#skills>div{
+    display: grid;
+    width: 100%;
+    grid-template-columns:repeat(4,1fr) ;
+    align-items: center;
+}
+#skills>div>div{
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    height: 113px;
+    width: 100px;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    margin: auto;
+    margin-bottom: 19px;
+    
+}
+#skills{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Project */
+.p-img{
+    width: 100%;
+}
+.p1{
+    border: 1px solid black;
+    padding: 32px;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 19px 19px;
+}
+#projects-b{
+    background-color: rgb(0, 0, 128);
+    color: white;
+    padding: 5px 61px;
+    font-size: 19px;
+    border-radius: 29px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    
+}
+#icons>:nth-child(1){
+    font-size: 40px;
+}
+
+/* contact */
+
+#contact-1 {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+}
+#info {
+    width: 100%;
+    background: #8080800d;
+    padding: 21px;
+    margin: auto;
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: #000080db;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+footer>div {
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Mobile CSS  */
+
+@media (max-width: 640px){
+    #mob-links {
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        align-items: center;
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        background: darkblue;
+    }
+    .links,#mob-links{
+        display: none;
+    }
+    .mob-icon{
+        display: block;
+    }
+    .mob-icon>i{
+        font-size:20px;
+    }
+    #navbar>h2{
+        font-size: 22px;
+    }
+
+    #mob-links ul >li{
+        line-height: 100px;
+    }
+    #mob-links ul >li>a{
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+    }
+    #menu-close {
+        position: absolute;
+        right: 50px;
+        top: 26px;
+        font-size: 35px;
+    }
+    #hero-section{
+        grid-template-rows: 1fr 0.7fr;
+    }
+    #about-me {
+        width: 90%;
+        display: grid;
+        margin: auto;
+        gap: 57px;
+        text-align: center;
+         margin-top: 4rem;
+    }
+    #about-img{
+        margin: auto;
+    }
+    #main-projects{
+        width: 83%;
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        margin: auto;
+        gap: 30px;
+        margin-top: 62px;
+        margin-bottom: 69px;
+    }
+    
+    .p1 {
+        border: 1px solid black;
+        padding: 17px;
+    }
+    #skills>div {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 20px;
+    }
+    
+
+
+    
+}
+
+/* Tablet Css */
+@media (max-width: 780px){
+    
+   
+    #navbar>h2{
+        font-size: 20px;
+    }
+    .links ul{
+        gap: 20px;
+    }
+
+    #main-projects{
+        width: 83%;
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        margin: auto;
+        gap: 62px;
+        margin-top: 62px;
+        margin-bottom: 69px;
+    }
+    
+    .p1 {
+        border: 1px solid black;
+        padding: 17px;
+    }
+
+    /* about me  */
+    #about-me {
+        width: 90%;
+        display: grid;
+        margin: auto;
+        gap: 57px;
+        text-align: center;
+         margin-top: 4rem;
+    }
+    #about-img{
+        margin: auto;
+    }
+
+
+
+    
+
+    
+}
+
+
