@@ -49,11 +49,11 @@ img{
         align-items: center;
     }
     #main-projects{
-        width: 85%;
+        width: 95%;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
         margin: auto;
-        gap: 108px;
+        gap: 22px;
         margin-top: 62px;
         margin-bottom: 69px;
     }
@@ -215,6 +215,36 @@ header{
     align-items: center;
     row-gap: 20px;
 }
+
+/* Tools */
+#tool>div{
+    display: grid;
+    width: 100%;
+    grid-template-columns:repeat(2,1fr) ;
+    align-items: center;
+}
+#tool>div>div{
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    height: 113px;
+    width: 100px;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    margin: auto;
+    margin-bottom: 19px;
+    
+}
+#tool{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    grid-template-rows: repeat(1,1fr);
+    align-items: center;
+    row-gap: 20px;
+}
+
 
 /* Project */
 .p-img{
@@ -385,7 +415,7 @@ footer>div {
     #main-projects{
         width: 83%;
         display: grid;
-        grid-template-rows: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
         margin: auto;
         gap: 62px;
         margin-top: 62px;
