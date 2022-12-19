@@ -5,8 +5,22 @@
     box-sizing: border-box;
     font-family: Poppins;
 }
-i.fa-brands.fa-github {
+#projects-a{
+    background-color: rgb(0, 0, 128);
+    color: white;
+    padding: 5px 61px;
+    font-size: 19px;
+    border-radius: 29px;
+    letter-spacing: 4px;
     cursor: pointer;
+}
+i.fa-brands.fa-githubi,i.fa-solid.fa-globe {
+    cursor: pointer;
+}
+.tech-stack {
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: bold;
 }
 html{
     scroll-behavior: smooth;
@@ -80,7 +94,8 @@ header{
     align-items: center;
     color: white;
     width: 100%;
-    position: fixed;
+    position: sticky;
+    top: 0;
 
     
 }
@@ -114,7 +129,6 @@ header{
     width: auto;
     align-items: center;
     height: 90vh;
-    margin-bottom: 6rem;
 }
 #hero-image {
     width: 100%;
@@ -304,6 +318,10 @@ footer>div {
     }
     #hero-section{
         grid-template-rows: 1fr 0.7fr;
+        display: grid;
+        width: auto;
+        align-items: center;
+        height: 48rem;
     }
     #about-me {
         width: 90%;
@@ -337,14 +355,24 @@ footer>div {
         align-items: center;
         gap: 20px;
     }
-    
+    #hero-text h4 {
+        font-size: 37px;
+        line-height: 5rem;
+    }
+    #hero-text h5 {
+        font-size: 19px;
+        line-height: 5rem;
+    }
+    #about-me>div:nth-child(2)>p {
+        font-size: 19px;
+    }
 
 
     
 }
 
 /* Tablet Css */
-@media (max-width: 780px){
+@media ((min-width:641px) and ( max-width: 780px)){
     
    
     #navbar>h2{
@@ -380,6 +408,9 @@ footer>div {
     }
     #about-img{
         margin: auto;
+    }
+    #hero-section {
+        margin-bottom: 17rem;
     }
 
 

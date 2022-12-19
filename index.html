@@ -21,6 +21,7 @@
                 <li><a href="#skills-section">Skills</a></li>
                 <li><a href="#project">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="https://drive.google.com/file/d/1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC/view?usp=sharing">Resume</a></li>
             </ul>
         </div>
 
@@ -39,6 +40,7 @@
                 <li><a href="#skills-section" onclick="Closenav()">Skills</a></li>
                 <li><a href="#project" onclick="Closenav()">Projects</a></li>
                 <li><a href="#contact" onclick="Closenav()">Contact</a></li>
+                <li><a href="https://drive.google.com/file/d/1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC/view?usp=sharing" onclick="Closenav()">Resume</a></li>
             </ul>
         </div>
         
@@ -57,7 +59,7 @@
                     <i class="fa-brands fa-linkedin" onclick="redirect('https://linkedin.com/in/gitesh-sutar')"></i>
                     <i class="fa-brands fa-github" onclick="redirect('https://github.com/gitesh8')"></i>
 
-                    <button id="projects-b" onclick="download('https://drive.google.com/u/0/uc?id=1s5uz_QRYRpQxwqd23b34ouMm5qLoET8j&export=download')"> <span><i class="fa-solid fa-download"></i></span> Resume</button>
+                    <button id="projects-b" onclick="download('https://drive.google.com/u/0/uc?id=1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC&export=download')"> <span><i class="fa-solid fa-download"></i></span> Resume</button>
                 </div>
             </div>
              <div id="hero-image">
@@ -125,12 +127,17 @@
                     <div id="icons">
                         <div>
                             <i class="fa-brands fa-github" onclick="redirect('https://github.com/arnab9593/appletv')"></i>
-                            <button id="projects-b" onclick="redirect('https://applte-tv.netlify.app/')"> Live </button>
+                            <i class="fa-solid fa-globe" onclick="redirect('https://applte-tv.netlify.app/')"></i>
                         </div>
                     </div>
                     <div id="p-desc">
                         <span>
                             Apple tv website clone. Apple tv is a streming website where user can strem any series or movies
+                        </span>
+                    </div>
+                    <div class="tech-stack">
+                        <span>
+                            TechStack: HTML |  CSS | Javscript
                         </span>
                     </div>
                 </div>
@@ -145,7 +152,7 @@
                 <div id="icons">
                     <div>
                         <i class="fa-brands fa-github" onclick="redirect('https://github.com/amanvyas1/obeisant-stem-2172')"></i>
-                        <button id="projects-b" onclick="redirect('https://olx-in.netlify.app/')"> Live </button>
+                        <i class="fa-solid fa-globe" onclick="redirect('https://olx-in.netlify.app/')"></i>
                     </div>
 
                 </div>
@@ -154,10 +161,24 @@
                         OLX India (clone) offers online local classified ads in India, where any user can post or see ads.
                     </span>
                 </div>
+                <div class="tech-stack">
+                    <span>
+                        TechStack: HTML |  CSS | Javscript
+                    </span>
+                </div>
                 
             </div>
         </div>
 
+    </section>
+
+    <section id="github">
+        <div class="title">Github Stats</div>
+        <div class="divider"></div>
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>
     </section>
     
 
@@ -182,4 +203,16 @@
     
 </body>
 <script src="scripts/script.js"></script>
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+<script>
+ 
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "gitesh8", { responsive: true });
+</script>
 </html>
