@@ -33,6 +33,14 @@ img{
 }
 @media (min-width:781px) {
 
+    #stats {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 31px;
+        gap: 55px;
+    }
+
     #hero-section{
         grid-template-columns: 1fr 0.7fr;
 
@@ -57,7 +65,14 @@ img{
         margin-top: 62px;
         margin-bottom: 69px;
     }
+   
     
+}
+#tool>div{
+    display: grid;
+    width: 100%;
+    grid-template-columns:repeat(4,1fr) ;
+    align-items: center;
 }
 /* Scroll bar scc */
 
@@ -217,12 +232,7 @@ header{
 }
 
 /* Tools */
-#tool>div{
-    display: grid;
-    width: 100%;
-    grid-template-columns:repeat(2,1fr) ;
-    align-items: center;
-}
+
 #tool>div>div{
     padding: 2px;
     display: flex;
@@ -257,7 +267,7 @@ header{
 
 #icons {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 19px 19px;
 }
 #projects-b{
@@ -308,6 +318,14 @@ footer>div {
 /* Mobile CSS  */
 
 @media (max-width: 640px){
+
+    #stats {
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 19px;
+    }
     #mob-links {
         height: 100vh;
         position: absolute;
@@ -396,17 +414,23 @@ footer>div {
     #about-me>div:nth-child(2)>p {
         font-size: 19px;
     }
+    #tool>div{
+        display: grid;
+        width: 100%;
+        grid-template-columns:repeat(2,1fr) ;
+        align-items: center;
+    }
 
 
     
 }
 
 /* Tablet Css */
-@media ((min-width:641px) and ( max-width: 780px)){
+@media ((min-width:641px) and ( max-width: 826px)){
     
    
     #navbar>h2{
-        font-size: 20px;
+        font-size: 15px;
     }
     .links ul{
         gap: 20px;
