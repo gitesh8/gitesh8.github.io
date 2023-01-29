@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: Poppins;
 }
+i{
+    cursor: pointer;
+}
 #projects-a{
     background-color: rgb(0, 0, 128);
     color: white;
@@ -57,9 +60,9 @@ img{
         align-items: center;
     }
     #main-projects{
-        width: 95%;
+        width: 85%;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
         margin: auto;
         gap: 22px;
         margin-top: 62px;
@@ -439,7 +442,7 @@ footer>div {
     #main-projects{
         width: 83%;
         display: grid;
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
         margin: auto;
         gap: 62px;
         margin-top: 62px;
