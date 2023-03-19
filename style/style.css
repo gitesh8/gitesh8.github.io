@@ -1,4 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {
+    background: #00003c;
+    color: white;
+}
+.contrib-number {
+    color: #fff;
+}
+#skills > div > div:hover {
+    background: white;
+    cursor: pointer;
+}
+#tool > div > div:hover {
+    background: white;
+    cursor: pointer;
+}
+.calendar{
+    margin: 18px auto;
+    width: 97%;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -60,7 +80,7 @@ img{
         align-items: center;
     }
     #main-projects{
-        width: 85%;
+        width: 79%;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin: auto;
@@ -114,6 +134,7 @@ header{
     width: 100%;
     position: sticky;
     top: 0;
+    box-shadow: rgb(255 255 255 / 47%) 0px 3px 8px;
 
     
 }
@@ -184,7 +205,7 @@ header{
     width: 4%;
     margin: auto;
     height: 2px;
-    background: #00000030;
+    background: #ffffff;
 }
 #about {
     background: #80808005;
@@ -219,10 +240,13 @@ header{
     height: 113px;
     width: 100px;
     align-items: center;
-    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    box-shadow: rgb(255, 255, 255) 0px 3px 8px;
     margin: auto;
     margin-bottom: 19px;
     
+}
+#skills>div>div>img{
+    padding: 7px;
 }
 #skills{
     display: grid;
@@ -243,10 +267,13 @@ header{
     height: 113px;
     width: 100px;
     align-items: center;
-    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    box-shadow: rgb(255, 255, 255) 0px 3px 8px;
     margin: auto;
     margin-bottom: 19px;
     
+}
+#tool>div>div>img{
+    padding: 7px;
 }
 #tool{
     display: grid;
@@ -264,8 +291,9 @@ header{
     width: 100%;
 }
 .p1{
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 32px;
+    box-shadow: rgb(255 255 255 / 52%) 0px 0px 20px, rgb(255 255 255 / 24%) 0px 3px 2px;
 }
 
 #icons {
@@ -396,8 +424,9 @@ footer>div {
     }
     
     .p1 {
-        border: 1px solid black;
+        border: 1px solid white;
         padding: 17px;
+        box-shadow: rgb(255 255 255 / 52%) 0px 0px 20px, rgb(255 255 255 / 24%) 0px 3px 2px;
     }
     #skills>div {
         display: grid;
@@ -450,8 +479,9 @@ footer>div {
     }
     
     .p1 {
-        border: 1px solid black;
+        border: 1px solid white;
         padding: 17px;
+        box-shadow: rgb(255 255 255 / 52%) 0px 0px 20px, rgb(255 255 255 / 24%) 0px 3px 2px;
     }
 
     /* about me  */
