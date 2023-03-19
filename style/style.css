@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body {
-    background: #00003c;
+    background: linear-gradient(58deg, #020844, #041c6e);
     color: white;
 }
 .contrib-number {
