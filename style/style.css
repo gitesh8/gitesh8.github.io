@@ -464,16 +464,6 @@ footer>div {
         padding: 17px;
         box-shadow: rgb(255 255 255 / 52%) 0px 0px 20px, rgb(255 255 255 / 24%) 0px 3px 2px;
     }
-    /* #skills>div {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(2,1fr);
-        align-items: center;
-        gap: 20px;
-    } */
-    #skills-section{
-
-    }
     #skills{
         width: 95%;
         margin: auto;
