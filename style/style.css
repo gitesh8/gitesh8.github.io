@@ -1,8 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body {
     background: linear-gradient(58deg, #020844, #041c6e);
+    background: linear-gradient(#0f4183,#05121d, #17369b );
     color: white;
 }
+i:hover{
+    box-shadow: rgb(255, 255, 255) 0px 5px 15px;
+    border-radius: 50%;
+
+}
+main{
+    background:
+    linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)), 
+    url(../img//background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+ main h5,main h4,main h3{
+    text-shadow: 4px 4px #0818aa; 
+}
+
 .contrib-number {
     color: #fff;
 }
@@ -54,6 +73,14 @@ img{
 #p-desc {
     text-align: justify;
 }
+#skills{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+
+
+
 @media (min-width:781px) {
 
     #stats {
@@ -225,37 +252,42 @@ header{
 /* about section end */
 /* skilss start */
 .skills-img {
-    width: 40%;
+    width: 100%;
 }
-#skills>div{
+/* #skills>div{
     display: grid;
     width: 100%;
     grid-template-columns:repeat(4,1fr) ;
     align-items: center;
-}
+} */
 #skills>div>div{
-    padding: 2px;
+    padding: 5px;
     display: flex;
     justify-content: center;
-    height: 113px;
-    width: 100px;
+    height: 153px;
+    width: 150px;
     align-items: center;
     box-shadow: rgb(255, 255, 255) 0px 3px 8px;
     margin: auto;
-    margin-bottom: 19px;
-    
+    border-radius: 10px;
+    transition: 0.5s;
 }
-#skills>div>div>img{
-    padding: 7px;
+#skills img{
+   width: 90%;
 }
 #skills{
     display: grid;
-    width: 90%;
+    width: 70%;
     margin: auto;
     margin-top: 20px;
-    grid-template-rows: repeat(2,1fr);
     align-items: center;
-    row-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    padding: 15px;
+     gap: 20px;
+}
+#skills h4{
+    margin-top: 15px;
 }
 
 /* Tools */
@@ -306,10 +338,14 @@ header{
     color: white;
     padding: 5px 61px;
     font-size: 19px;
-    border-radius: 29px;
     letter-spacing: 4px;
     cursor: pointer;
-    
+    border: none;
+    border-radius: 10px;
+}
+#projects-b:hover{
+    background-color:transparent;
+    border: 2px solid white;
 }
 #icons>:nth-child(1){
     font-size: 40px;
@@ -428,12 +464,20 @@ footer>div {
         padding: 17px;
         box-shadow: rgb(255 255 255 / 52%) 0px 0px 20px, rgb(255 255 255 / 24%) 0px 3px 2px;
     }
-    #skills>div {
+    /* #skills>div {
         display: grid;
         width: 100%;
         grid-template-columns: repeat(2,1fr);
         align-items: center;
         gap: 20px;
+    } */
+    #skills-section{
+
+    }
+    #skills{
+        width: 95%;
+        margin: auto;
+        grid-template-columns: repeat(2,1fr);
     }
     #hero-text h4 {
         font-size: 37px;
