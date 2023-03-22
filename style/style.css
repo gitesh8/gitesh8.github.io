@@ -346,7 +346,7 @@ h3.project-title {
     font-weight: bold;
     margin: 20px 0px;
 }
-#projects-b{
+#resume-button-1{
     background: repeating-linear-gradient(
 45deg, #1000ff, #002dcf 100px);
     color: white;
@@ -355,7 +355,7 @@ h3.project-title {
     letter-spacing: 4px;
     border-radius: 10px;
 }
-#projects-b:hover{
+#resume-button-1:hover{
     background-color:transparent;
     border: 2px solid white;
 }
