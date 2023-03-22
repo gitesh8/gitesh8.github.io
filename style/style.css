@@ -342,6 +342,12 @@ header{
     top: -8px;
     left: 20px;
 }
+h3.project-title {
+    text-align: left;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
 #projects-b{
     background: repeating-linear-gradient(
 45deg, #1000ff, #002dcf 100px);
