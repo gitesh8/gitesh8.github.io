@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body {
-    background: linear-gradient(58deg, #020844, #041c6e);
-    background: linear-gradient(#0f4183,#05121d, #17369b );
+    background: repeating-linear-gradient(45deg, #000434, black 100px);
     color: white;
 }
 i:hover{
@@ -10,7 +9,6 @@ i:hover{
 
 }
 main{
-    background: linear-gradient(rgb(8 33 213 / 65%),rgba(0,0,0,0.3));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
