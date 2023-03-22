@@ -421,7 +421,7 @@ footer>div {
     .mob-icon>i{
         font-size:20px;
     }
-    #navbar>h2{
+    #nav-menu>h2{
         font-size: 22px;
     }
 
@@ -503,7 +503,7 @@ footer>div {
 @media ((min-width:641px) and ( max-width: 826px)){
     
    
-    #navbar>h2{
+    #nav-menu>h2{
         font-size: 15px;
     }
     .links ul{
