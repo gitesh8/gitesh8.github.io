@@ -16,12 +16,12 @@
         </nav>
         <div class="links">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills-section">Skills</a></li>
-                <li><a href="#project">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="https://drive.google.com/file/d/1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC/view?usp=sharing">Resume</a></li>
+                <li><a class="nav-link home" href="#home">Home</a></li>
+                <li><a class="nav-link about" href="#about">About</a></li>
+                <li><a  class="nav-link skills" href="#skills-section">Skills</a></li>
+                <li><a class="nav-link projects" href="#project">Projects</a></li>
+                <li><a class="nav-link contact" href="#contact">Contact</a></li>
+                <li><a class="nav-link resume" href="https://drive.google.com/file/d/1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC/view?usp=sharing">Resume</a></li>
             </ul>
         </div>
 
@@ -52,12 +52,12 @@
         <div id="hero-section">
             <div id="hero-text">
                 <h3>Hi, I'm </h3>
-                <h4>Gitesh Sutar</h4>
+                <h4 id="user-detail-name" >Gitesh Sutar</h4>
                 <h5>A Full stack Web Developer</h5>
 
                 <div id="hero-icons">
-                    <i class="fa-brands fa-linkedin" onclick="redirect('https://linkedin.com/in/gitesh-sutar')"></i>
-                    <i class="fa-brands fa-github" onclick="redirect('https://github.com/gitesh8')"></i>
+                    <i id="contact-linkedin" class="fa-brands fa-linkedin" onclick="redirect('https://linkedin.com/in/gitesh-sutar')"></i>
+                    <i id="contact-github" class="fa-brands fa-github" onclick="redirect('https://github.com/gitesh8')"></i>
 
                     <button id="projects-b" onclick="download('https://drive.google.com/u/0/uc?id=1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC&export=download')"> <span><i class="fa-solid fa-download"></i></span> Resume</button>
                 </div>
@@ -78,11 +78,11 @@
        <div id="about-me" class="about section">
          <div>
            <div id="about-img">
-            <img src="img/about-me.jpg" alt="Profile">
+            <img class="home-img" src="img/about-me.jpg" alt="Profile">
            </div>
         </div>
         <div>
-            <p>Hi, I'm Gitesh Sutar a passionate web developer who like to explore and learn new thing, 
+            <p id="user-detail-intro" >Hi, I'm Gitesh Sutar a passionate web developer who like to explore and learn new thing, 
                 currently aspiring full stack web developer at masai school.
             </p>
 
@@ -276,8 +276,8 @@
         <div class="divider"></div>
         <div id="contact-1">
            <div id="info">
-               <h4>Email:- giteshsutar88@gmail.com</h4>
-               <h4>Mobile :- +91 9372779418</h4>
+               <h4  id="contact-email" >Email:- giteshsutar88@gmail.com</h4>
+               <h4 id="contact-phone" >Mobile :- +91 9372779418</h4>
            </div>
         </div>
     </section>
