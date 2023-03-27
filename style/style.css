@@ -3,6 +3,9 @@ body {
     background: repeating-linear-gradient(45deg, #000434, black 100px);
     color: white;
 }
+li{
+    cursor: pointer;
+}
 .skills-img.skills-card:hover {
     color: black;
 }
@@ -275,8 +278,9 @@ header{
     border-radius: 50%;
     border: 3px solid;
 }
-#about-me>div:nth-child(2)>p{
-    font-size: 30px;
+#about-me>div:nth-child(2)>p {
+    font-size: 21px;
+    text-align: justify;
 }
 /* about section end */
 /* skilss start */
@@ -343,11 +347,6 @@ header{
     display: flex;
     justify-content: center;
     margin: 19px 19px;
-}
-#hero-icons>button {
-    position: relative;
-    top: -8px;
-    left: 20px;
 }
 h3.project-title {
     text-align: left;
@@ -499,7 +498,8 @@ footer>div {
         line-height: 5rem;
     }
     #about-me>div:nth-child(2)>p {
-        font-size: 19px;
+        font-size: 21px;
+        text-align: justify;
     }
     #tool>div{
         display: grid;
