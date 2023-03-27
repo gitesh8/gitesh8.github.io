@@ -3,6 +3,10 @@ body {
     background: repeating-linear-gradient(45deg, #000434, black 100px);
     color: white;
 }
+#github {
+    width: 94%;
+    margin: auto;
+}
 i:hover{
     box-shadow: rgb(255, 255, 255) 0px 5px 15px;
     border-radius: 50%;
@@ -15,9 +19,9 @@ main{
 
 }
 #skills>div>div {
-    padding: 5px;
-    display: flex;
-    justify-content: center;
+    padding: 26px;
+    display: grid;
+    place-items: center;
     height: auto;
     width: 100%;
     align-items: center;
@@ -125,8 +129,9 @@ img{
         margin-bottom: 69px;
     }
     #skills>div>div {
-        padding: 5px;
-        display: flex;
+        padding: 26px;
+        display: grid;
+        place-items: center;
         justify-content: center;
         height: 153px;
         width: 150px;
