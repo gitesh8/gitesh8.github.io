@@ -97,6 +97,7 @@ img{
         justify-content: center;
         margin-top: 31px;
         gap: 55px;
+        flex-wrap: wrap;
     }
 
     #hero-section{

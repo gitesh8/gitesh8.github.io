@@ -22,6 +22,7 @@
                 <li><a class="nav-link projects" href="#projects">Projects</a></li>
                 <li><a class="nav-link contact" href="#contact">Contact</a></li>
                 <li><a class="nav-link resume" id="resume-link-2" href="https://drive.google.com/file/d/1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC/view?usp=sharing">Resume</a></li>
+
             </ul>
         </div>
 
@@ -40,7 +41,7 @@
                 <li><a href="#skills-section" onclick="Closenav()">Skills</a></li>
                 <li><a href="#projects" onclick="Closenav()">Projects</a></li>
                 <li><a href="#contact" onclick="Closenav()">Contact</a></li>
-                <li><a href="https://drive.google.com/file/d/1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC/view?usp=sharing" onclick="Closenav()">Resume</a></li>
+                <li><a id="resume-link-1" href="https://drive.google.com/file/d/1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC/view?usp=sharing" onclick="Closenav()">Resume</a></li>
             </ul>
         </div>
         
@@ -60,6 +61,8 @@
                     <i id="contact-github" class="fa-brands fa-github" onclick="redirect('https://github.com/gitesh8')"></i>
 
                     <button id="resume-button-1" onclick="download('https://drive.google.com/u/0/uc?id=1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC&export=download')"> <span><i class="fa-solid fa-download"></i></span> Resume</button>
+
+                    <button id="resume-button-2" style="display: none;" onclick="download('https://drive.google.com/u/0/uc?id=1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC&export=download')"> <span><i class="fa-solid fa-download"></i></span> Resume</button>
                 </div>
             </div>
              <div id="hero-image" >
@@ -284,10 +287,10 @@
                
             </div>
             <div>
-                <img  id="github-top-langs" style="display: none;" src="https://github-readme-streak-stats.herokuapp.com/?user=gitesh8" alt="">
+                <img  id="github-stats-card" src="https://github-readme-streak-stats.herokuapp.com/?user=gitesh8" alt="">
             </div>
             <div> 
-                <img id="github-stats-card" src="https://github-readme-streak-stats.herokuapp.com/?user=gitesh8&" alt="gitesh8" />
+                <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gitesh8&layout=compact&theme=merko" alt="gitesh8" />
             </div>
         </div>
     </section>
