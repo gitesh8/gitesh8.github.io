@@ -3,9 +3,6 @@ body {
     background: repeating-linear-gradient(45deg, #000434, black 100px);
     color: white;
 }
-.test-class{
-    display: none;
-}
 i:hover{
     box-shadow: rgb(255, 255, 255) 0px 5px 15px;
     border-radius: 50%;
@@ -350,7 +347,7 @@ h3.project-title {
     font-weight: bold;
     margin: 20px 0px;
 }
-#resume-button{
+#resume-button-1{
     background: repeating-linear-gradient(
 45deg, #1000ff, #002dcf 100px);
     color: white;
@@ -359,7 +356,7 @@ h3.project-title {
     letter-spacing: 4px;
     border-radius: 10px;
 }
-#resume-button:hover{
+#resume-button-1:hover{
     background-color:transparent;
     border: 2px solid white;
 }
@@ -549,12 +546,4 @@ footer>div {
     #hero-section {
         margin-bottom: 17rem;
     }
-
-
-
-    
-
-    
 }
-
-
