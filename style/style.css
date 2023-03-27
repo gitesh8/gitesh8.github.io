@@ -3,6 +3,9 @@ body {
     background: repeating-linear-gradient(45deg, #000434, black 100px);
     color: white;
 }
+.skills-img.skills-card:hover {
+    color: black;
+}
 #github {
     width: 94%;
     margin: auto;
@@ -295,7 +298,7 @@ header{
      gap: 20px;
 }
 #skills h4{
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 /* Tools */
