@@ -3,6 +3,9 @@ body {
     background: repeating-linear-gradient(45deg, #000434, black 100px);
     color: white;
 }
+.test-class{
+    display: none;
+}
 i:hover{
     box-shadow: rgb(255, 255, 255) 0px 5px 15px;
     border-radius: 50%;
