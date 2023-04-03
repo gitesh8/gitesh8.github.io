@@ -202,6 +202,7 @@ header{
 .links ul > li>a{
     color: white;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .mob-icon, #mob-links{
@@ -344,11 +345,6 @@ header{
     display: flex;
     justify-content: center;
     margin: 19px 19px;
-}
-#hero-icons>button {
-    position: relative;
-    top: -8px;
-    left: 20px;
 }
 h3.project-title {
     text-align: left;
