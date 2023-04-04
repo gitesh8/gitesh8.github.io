@@ -14,10 +14,10 @@ function Closenav1(){
 function redirect(url){
     window.open(url);
 }
-// function download(url){
-//     window.location.href=url;
-//     window.open('https://drive.google.com/file/d/1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC/view');
-// }
 function resume(){
+    window.open('https://drive.google.com/file/d/1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC/view');
+}
+function resume1(){
+    location.href="https://drive.google.com/u/0/uc?id=1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC&export=download";
     window.open('https://drive.google.com/file/d/1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC/view');
 }
