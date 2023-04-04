@@ -6,6 +6,19 @@ body {
 .skills-img.skills-card:hover {
     color: black;
 }
+#resume-button-1 {
+    background: transparent;
+    color: white;
+    border: none;
+}
+#resume-link-1:hover{
+    border: 2px solid white;
+   border-width: 0px 0px 2px 0px;
+}
+#resume-link-1{
+    color: white;
+    font-size: 18px;
+}
 #github {
     width: 94%;
     margin: auto;
