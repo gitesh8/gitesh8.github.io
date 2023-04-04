@@ -365,16 +365,20 @@ h3.project-title {
     font-weight: bold;
     margin: 20px 0px;
 }
-#resume-button-2{
-    background: repeating-linear-gradient(
-45deg, #1000ff, #002dcf 100px);
+#resume-button-2 {
+    background: none;
+    border: none;
+}
+
+#resume-link-2 {
+    background: repeating-linear-gradient( 45deg, #1000ff, #002dcf 100px);
     color: white;
-    padding: 5px 61px;
+    padding: 10px 25px;
     font-size: 19px;
     letter-spacing: 4px;
     border-radius: 10px;
 }
-#resume-button-2:hover{
+#resume-link-2:hover{
     background-color:transparent;
     border: 2px solid white;
 }
