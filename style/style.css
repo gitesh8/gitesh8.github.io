@@ -188,7 +188,7 @@ header{
     align-items: center;
     color: white;
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0;
     box-shadow: rgb(255 255 255 / 47%) 0px 3px 8px;
 
@@ -202,7 +202,6 @@ header{
 .links ul > li>a{
     color: white;
     font-size: 18px;
-    cursor: pointer;
 }
 
 .mob-icon, #mob-links{
@@ -346,13 +345,18 @@ header{
     justify-content: center;
     margin: 19px 19px;
 }
+#hero-icons>button {
+    position: relative;
+    top: -8px;
+    left: 20px;
+}
 h3.project-title {
     text-align: left;
     font-size: 21px;
     font-weight: bold;
     margin: 20px 0px;
 }
-#resume-button-2{
+#resume-button-1{
     background: repeating-linear-gradient(
 45deg, #1000ff, #002dcf 100px);
     color: white;
@@ -361,7 +365,7 @@ h3.project-title {
     letter-spacing: 4px;
     border-radius: 10px;
 }
-#resume-button-2:hover{
+#resume-button-1:hover{
     background-color:transparent;
     border: 2px solid white;
 }

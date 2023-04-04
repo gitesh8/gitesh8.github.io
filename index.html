@@ -4,14 +4,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Gitesh Sutar</title>
 </head>
 <body>
     <section id="home">
-    <header id="nav-menu">
-        <nav >
+    <header>
+        <nav id="nav-menu">
             <h2> < Gitesh Sutar /> </h2>
             
         </nav>
@@ -22,7 +21,7 @@
                 <li><a  class="nav-link skills" href="#skills-section">Skills</a></li>
                 <li><a class="nav-link projects" href="#projects">Projects</a></li>
                 <li><a class="nav-link contact" href="#contact">Contact</a></li>
-                <li id="resume-button-1" onclick="download('https://drive.google.com/u/0/uc?id=1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC&export=download')"><a class="nav-link resume" id="resume-link-1" >Resume</a></li>
+                <li onclick="download('https://drive.google.com/u/0/uc?id=1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC&export=download')"><a class="nav-link resume" id="resume-link-2" >Resume</a></li>
 
             </ul>
         </div>
@@ -42,7 +41,7 @@
                 <li><a href="#skills-section" onclick="Closenav()">Skills</a></li>
                 <li><a href="#projects" onclick="Closenav()">Projects</a></li>
                 <li><a href="#contact" onclick="Closenav()">Contact</a></li>
-                <li><a onclick="Closenav1()">Resume</a></li>
+                <li><a id="resume-link-1"  onclick="Closenav1()">Resume</a></li>
             </ul>
         </div>
         
@@ -61,7 +60,9 @@
                     <i id="contact-linkedin" class="fa-brands fa-linkedin" onclick="redirect('https://linkedin.com/in/gitesh-sutar')"></i>
                     <i id="contact-github" class="fa-brands fa-github" onclick="redirect('https://github.com/gitesh8')"></i>
 
-                    <button id="resume-button-2" onclick="download('https://drive.google.com/u/0/uc?id=1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC&export=download')">Resume <a  id="resume-link-2" ></a></button>
+                    <button id="resume-button-1" onclick="download('https://drive.google.com/u/0/uc?id=1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC&export=download')"> <span><i class="fa-solid fa-download"></i></span> Resume</button>
+
+                    <button id="resume-button-2" style="display: none;" onclick="download('https://drive.google.com/u/0/uc?id=1r7NUifshN3IWZ3_a_tDkj8rz72DL4zRC&export=download')"> <span><i class="fa-solid fa-download"></i></span> Resume</button>
                 </div>
             </div>
              <div id="hero-image" >
@@ -234,25 +235,25 @@
                 <div>
                    <div class="p-img">
                     <img  style="display: none;" src="" alt="">
-                    <iframe src="https://drive.google.com/file/d/1I9ZX2dtlr3IOtQp83ztijBAykR1IkoGU/preview" width="100%" height="250px" ></iframe>
+                    <iframe src="https://drive.google.com/file/d/1PRU9KNuRmtImmCZsRgCc4VI7e04V6NMw/preview" width="100%" height="250px" ></iframe>
                    </div>
                 </div>
                 <div id="icons">
                     <div>
-                        <i class="fa-brands fa-github project-github-link " onclick="redirect('https://github.com/naveensharma8527/greedy-roof-9177')"></i>
-                        <i class="fa-solid fa-globe project-deployed-link" onclick="redirect('https://drive.google.com/file/d/1I9ZX2dtlr3IOtQp83ztijBAykR1IkoGU/view')"></i>
+                        <i class="fa-brands fa-github project-github-link " onclick="redirect('https://github.com/gitesh8/frail-quince-1886')"></i>
+                        <i class="fa-solid fa-globe project-deployed-link" onclick="redirect('https://drive.google.com/file/d/1PRU9KNuRmtImmCZsRgCc4VI7e04V6NMw/view')"></i>
                     </div>
 
                 </div>
                 <div id="p-desc">
-                    <h3 class="project-title"> Online Customer Service Support</h3>
+                    <h3 class="project-title"> Simba Online Hardware and Software support system</h3>
                     <span class="project-description">
-                        Online Customer Service Center management system is designed to efficiently store and retrieve important information related to customers, issues, and operators. Customers can easily raise any issues they may be experiencing, and operators can provide them with solutions.
+                        Simba Online Hardware and Software support system is a console-based support system where employees can raise a complaint regarding hardware or software with their id.
                     </span>
                 </div>
                 <div class="tech-stack">
                     <span class="project-tech-stack">
-                        TechStack: JAVA | MySQL  | Spring Boot | Hibernate
+                        TechStack: JAVA | MySQL
                     </span>
                 </div>
                 
