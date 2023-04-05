@@ -225,12 +225,10 @@ header{
 /* Hero Section start */
 
 #hero-icons>i {
-    font-size: 38px;
     margin: 26px 12px 0px 19px;
     cursor: pointer;
 }
 #hero-icons>button {
-    padding: 7px 29px;
    cursor: pointer;
 }
 #hero-section{
