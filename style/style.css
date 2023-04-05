@@ -6,6 +6,10 @@ body {
 .skills-img.skills-card:hover {
     color: black;
 }
+.p1.project-card:hover {
+    background: #00008b61;
+    cursor: pointer;
+}
 #resume-button-1 {
     background: transparent;
     color: white;
@@ -375,10 +379,11 @@ h3.project-title {
     font-size: 19px;
     letter-spacing: 4px;
     border-radius: 10px;
+    border: 5px solid #260678;
 }
 #resume-link-2:hover{
     background-color:transparent;
-    border: 2px solid white;
+    border: 3px solid white;
 }
 #icons>:nth-child(1){
     font-size: 40px;
@@ -531,9 +536,14 @@ footer>div {
     #nav-menu>h2{
         font-size: 15px;
     }
-    .links ul{
-        gap: 20px;
+   .links ul {
+      gap: 16px;
     }
+    h2{
+        font-size: 17.5px;
+    }
+
+  
 
     #main-projects{
         width: 83%;
