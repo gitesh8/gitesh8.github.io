@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body {
-    background: repeating-linear-gradient(45deg, #000434, black 100px);
+    background: repeating-linear-gradient(45deg, #020634, #04052e 100px);
     color: white;
 }
 .skills-img.skills-card:hover {
