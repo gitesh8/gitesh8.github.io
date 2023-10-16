@@ -1,27 +1,35 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="img/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Gitesh Sutar</title>
 </head>
+
 <body>
     <header id="nav-menu">
-        <nav >
-            <h2> < Gitesh Sutar /> </h2>
-            
+        <nav>
+            <h2>
+                < Gitesh Sutar />
+            </h2>
+
         </nav>
         <div class="links">
             <ul>
                 <li><a class="nav-link home" href="#home">Home</a></li>
                 <li><a class="nav-link about" href="#about">About</a></li>
-                <li><a  class="nav-link skills" href="#skills-section">Skills</a></li>
+                <li><a class="nav-link skills" href="#skills-section">Skills</a></li>
                 <li><a class="nav-link projects" href="#projects">Projects</a></li>
                 <li><a class="nav-link contact" href="#contact">Contact</a></li>
-                <li><button  id="resume-button-1" onclick="resume()"><a href="img/Gitesh-Sutar-Resume.pdf" download class="nav-link resume" id="resume-link-1">Resume</a></button></li>
+                <li><button id="resume-button-1" onclick="resume()"><a href="img/Gitesh-Sutar-Resume.pdf" download
+                            class="nav-link resume" id="resume-link-1">Resume</a></button></li>
             </ul>
         </div>
 
@@ -32,7 +40,7 @@
 
         <div id="mob-links">
             <div id="menu-close">
-                <i  onclick="Closenav()" class="far fa-window-close"></i>
+                <i onclick="Closenav()" class="far fa-window-close"></i>
             </div>
             <ul>
                 <li><a href="#home" onclick="Closenav()">Home</a></li>
@@ -43,54 +51,58 @@
                 <li><a onclick="Closenav1()">Resume</a></li>
             </ul>
         </div>
-        
-        
-        
+
+
+
     </header>
     <section id="home">
-    
-     <!-- Main Section -->
-    <main>
-        <div id="hero-section">
-            <div id="hero-text">
-                <h3>Hi, I'm </h3>
-                <h4  >Gitesh Sutar</h4>
-                <h5>A Full stack Web Developer</h5>
 
-                <div id="hero-icons">
-                    <i id="contact-linkedin" class="fa-brands fa-linkedin fa-2xl" onclick="redirect('https://linkedin.com/in/gitesh-sutar')"></i>
-                    <i id="contact-github" class="fa-brands fa-github fa-2xl" onclick="redirect('https://github.com/gitesh8')"></i>
+        <!-- Main Section -->
+        <main>
+            <div id="hero-section">
+                <div id="hero-text">
+                    <h3>Hi, I'm </h3>
+                    <h4>Gitesh Sutar</h4>
+                    <h5>A Full stack Web Developer</h5>
 
-                    <button id="resume-button-2" onclick="resume()"><a href="img/Gitesh-Sutar-Resume.pdf" download id="resume-link-2">Resume</a></button>
+                    <div id="hero-icons">
+                        <i id="contact-linkedin" class="fa-brands fa-linkedin fa-2xl"
+                            onclick="redirect('https://linkedin.com/in/gitesh-sutar')"></i>
+                        <i id="contact-github" class="fa-brands fa-github fa-2xl"
+                            onclick="redirect('https://github.com/gitesh8')"></i>
+
+                        <button id="resume-button-2" onclick="resume()"><a href="img/Gitesh-Sutar-Resume.pdf" download
+                                id="resume-link-2">Resume</a></button>
+                    </div>
+                </div>
+                <div id="hero-image">
+                    <img width="100%" src="img/hero-img.webp" alt="Coding ">
                 </div>
             </div>
-             <div id="hero-image" >
-                <img width="100%"src="img/hero-img.webp" alt="Coding ">
-             </div>
-        </div>
-    </main>
-</section>
+        </main>
+    </section>
     <!-- About me Section -->
-    
+
     <section id="about" class="about section">
         <div class="title" id="user-detail-name">About Me</div>
         <div class="divider"></div>
 
-        
-       <div id="about-me" class="about section">
-         <div>
-           <div id="about-img">
-            <img class="home-img" src="img/about-me.jpg" alt="Profile">
-           </div>
-        </div>
-        <div>
-            <p id="user-detail-intro" >An enthusiastic Java Developer who can write production-ready code
-                with both frontend (HTML, CSS, Javascript) and backend technologies. Eager to explore and learn new things.
-                Open to working with new technologies.
-            </p>
 
+        <div id="about-me" class="about section">
+            <div>
+                <div id="about-img">
+                    <img class="home-img" src="img/about-me.jpg" alt="Profile">
+                </div>
+            </div>
+            <div>
+                <p id="user-detail-intro">An enthusiastic Java Developer who can write production-ready code
+                    with both frontend (HTML, CSS, Javascript) and backend technologies. Eager to explore and learn new
+                    things.
+                    Open to working with new technologies.
+                </p>
+
+            </div>
         </div>
-       </div>
 
     </section>
 
@@ -98,50 +110,66 @@
         <div class="title">Skills</div>
         <div class="divider"></div>
 
-        
-       <div id="skills">
-        <div>
-            <div class="skills-img skills-card">
-                <img class="skills-card-img" src="img/html.webp" alt="html">
-                <h4 class="skills-card-name">HTML5</h4>
+
+        <div id="skills">
+            <div>
+                <div class="skills-img skills-card">
+                    <img class="skills-card-img" src="img/html.webp" alt="html">
+                    <h4 class="skills-card-name">HTML5</h4>
+                </div>
+
             </div>
-           
-        </div>
-        <div>
-            <div class="skills-img skills-card">
-                <img class="skills-card-img" src="img/css.webp" alt="css">
-            <h4 class="skills-card-name">CSS3</h4>
-        </div>
-        </div>
-        <div>
-            <div class="skills-img skills-card"><img class="skills-card-img" src="img/js.webp" alt="js">
-                <h4 class="skills-card-name">Javascript</h4>
+            <div>
+                <div class="skills-img skills-card">
+                    <img class="skills-card-img" src="img/css.webp" alt="css">
+                    <h4 class="skills-card-name">CSS3</h4>
+                </div>
             </div>
-        </div>
-        <div>
-            <div class="skills-img skills-card"><img class="skills-card-img" src="img/java.webp" alt="java">
-                <h4 class="skills-card-name">JAVA</h4>
+            <div>
+                <div class="skills-img skills-card"><img class="skills-card-img" src="img/js.webp" alt="js">
+                    <h4 class="skills-card-name">Javascript</h4>
+                </div>
             </div>
-        </div>
-        <div>
-            <div class="skills-img skills-card">
-                <img class="skills-card-img" src="img/mysql.webp" alt="">
-                <h4 class="skills-card-name">MySQL</h4>
+            <div>
+                <div class="skills-img skills-card"><img class="skills-card-img" src="img/java.webp" alt="java">
+                    <h4 class="skills-card-name">JAVA</h4>
+                </div>
             </div>
-        </div>
-        <div>
-            <div class="skills-img skills-card"><img class="skills-card-img" src="img/hibernate.webp" alt="">
-                <h4 class="skills-card-name">Hibernate</h4>
+            <div>
+                <div class="skills-img skills-card">
+                    <img class="skills-card-img" src="img/mysql.webp" alt="">
+                    <h4 class="skills-card-name">MySQL</h4>
+                </div>
             </div>
-        </div>
-        <div>
-            <div class="skills-img skills-card"><img class="skills-card-img" src="img/spring-boot.webp" alt="">
-                <h4 class="skills-card-name">Spring Boot</h4>
+            <div>
+                <div class="skills-img skills-card"><img class="skills-card-img" src="img/hibernate.webp" alt="">
+                    <h4 class="skills-card-name">Hibernate</h4>
+                </div>
             </div>
-        </div>
-        <div>
-            <div class="skills-img skills-card"><img class="skills-card-img"src="img/spring.webp" alt="">
-                <h4 class="skills-card-name">Spring</h4>
+            <div>
+                <div class="skills-img skills-card"><img class="skills-card-img" src="img/spring-boot.webp" alt="">
+                    <h4 class="skills-card-name">Spring Boot</h4>
+                </div>
+            </div>
+            <div>
+                <div class="skills-img skills-card"><img class="skills-card-img" src="img/spring.webp" alt="">
+                    <h4 class="skills-card-name">Spring</h4>
+                </div>
+            </div>
+            <div>
+                <div class="skills-img skills-card"><img class="skills-card-img" src="img/angular.webp" alt="">
+                    <h4 class="skills-card-name">Angular</h4>
+                </div>
+            </div>
+            <div>
+                <div class="skills-img skills-card"><img class="skills-card-img" src="img/flask.webp" alt="">
+                    <h4 class="skills-card-name">Flask</h4>
+                </div>
+            </div>
+            <div>
+                <div class="skills-img skills-card"><img class="skills-card-img" src="img/python.png" alt="">
+                    <h4 class="skills-card-name">Python</h4>
+                </div>
             </div>
 
     </section>
@@ -150,27 +178,31 @@
         <div class="divider"></div>
 
         <div id="main-projects">
- 
+
             <div class="p1 project-card">
                 <div>
                     <div class="p-img">
-                        <img src="img/apple-tv.PNG" alt="">
+                        <img style="display: none;" src="" alt="">
+                        <iframe src="https://drive.google.com/file/d/1a4Qyz5EzYB7vMqNJqHxLiTLuXAqBFxYy/preview"
+                            width="100%" height="250px"></iframe>
                     </div>
                     <div id="icons">
                         <div>
-                            <i class="fa-brands fa-github project-github-link" onclick="redirect('https://github.com/arnab9593/appletv')"></i>
-                            <i class="fa-solid fa-globe project-deployed-link" onclick="redirect('https://applte-tv.netlify.app/')"></i>
+                            <i class="fa-brands fa-github project-github-link"
+                                onclick="redirect('https://github.com/gitesh8/starsync')"></i>
+                            <i class="fa-solid fa-globe project-deployed-link"
+                                onclick="redirect('https://starsync.netlify.app/starsync')"></i>
                         </div>
                     </div>
                     <div id="p-desc">
-                        <h3 class="project-title"> Apple tv Clone</h3>
+                        <h3 class="project-title"> Starsync - Project Management System</h3>
                         <span class="project-description">
-                            Apple tv website clone. Apple tv is a streming website where user can strem any series or movies
+                            Starsync streamlines project management, with role-specific features for administrators, managers, and team members.
                         </span>
                     </div>
                     <div class="tech-stack">
                         <span class="project-tech-stack">
-                            TechStack: HTML |  CSS | Javscript
+                            TechStack: Angular | Flask | MySQL
                         </span>
                     </div>
                 </div>
@@ -178,48 +210,55 @@
             </div>
             <div class="p1 project-card ">
                 <div>
-                   <div class="p-img">
-                      <img src="img/olx.PNG" alt="">
-                   </div>
+                    <div class="p-img">
+                        <img src="img/olx.PNG" alt="">
+                    </div>
                 </div>
                 <div id="icons">
                     <div>
-                        <i class="fa-brands fa-github project-github-link" onclick="redirect('https://github.com/amanvyas1/obeisant-stem-2172')"></i>
-                        <i class="fa-solid fa-globe project-deployed-link" onclick="redirect('https://olx-in.netlify.app/')"></i>
+                        <i class="fa-brands fa-github project-github-link"
+                            onclick="redirect('https://github.com/amanvyas1/obeisant-stem-2172')"></i>
+                        <i class="fa-solid fa-globe project-deployed-link"
+                            onclick="redirect('https://olx-in.netlify.app/')"></i>
                     </div>
 
                 </div>
                 <div id="p-desc">
                     <h3 class="project-title"> OLX.in Clone</h3>
                     <span class="project-description">
-                        OLX India (clone) offers online local classified ads in India, where any user can post or see ads.
+                        OLX India (clone) offers online local classified ads in India, where any user can post or see
+                        ads.
                     </span>
                 </div>
                 <div class="tech-stack">
                     <span class="project-tech-stack">
-                        TechStack: HTML |  CSS | Javscript
+                        TechStack: HTML | CSS | Javscript
                     </span>
                 </div>
-                
+
             </div>
-             <div class="p1 project-card">
+            <div class="p1 project-card">
                 <div>
-                   <div class="p-img">
-                    <img  style="display: none;" src="" alt="">
-                    <iframe src="https://drive.google.com/file/d/1V1xZy951-cqc4X80-TBOpNxYFeP-K2ai/preview" width="100%" height="250px" ></iframe>
-                   </div>
+                    <div class="p-img">
+                        <img style="display: none;" src="" alt="">
+                        <iframe src="https://drive.google.com/file/d/1V1xZy951-cqc4X80-TBOpNxYFeP-K2ai/preview"
+                            width="100%" height="250px"></iframe>
+                    </div>
                 </div>
                 <div id="icons">
                     <div>
-                        <i class="fa-brands fa-github project-github-link" onclick="redirect('https://github.com/gitesh8/hypnotic-hospital-5239')"></i>
-                        <i class="fa-solid fa-globe project-deployed-link" onclick="redirect('https://drive.google.com/file/d/1V1xZy951-cqc4X80-TBOpNxYFeP-K2ai/view')"></i>
+                        <i class="fa-brands fa-github project-github-link"
+                            onclick="redirect('https://github.com/gitesh8/hypnotic-hospital-5239')"></i>
+                        <i class="fa-solid fa-globe project-deployed-link"
+                            onclick="redirect('https://drive.google.com/file/d/1V1xZy951-cqc4X80-TBOpNxYFeP-K2ai/view')"></i>
                     </div>
 
                 </div>
                 <div id="p-desc">
                     <h3 class="project-title"> Simba Human Resource management system</h3>
                     <span class="project-description">
-                        Simba Human Resource management system makes easier to manage the employee, It has two login area Admin Login & Employee Login.
+                        Simba Human Resource management system makes easier to manage the employee, It has two login
+                        area Admin Login & Employee Login.
                     </span>
                 </div>
                 <div class="tech-stack">
@@ -227,34 +266,39 @@
                         TechStack: JAVA | MySQL
                     </span>
                 </div>
-                
+
             </div>
             <div class="p1 project-card">
                 <div>
-                   <div class="p-img">
-                    <img  style="display: none;" src="" alt="">
-                    <iframe src="https://drive.google.com/file/d/1I9ZX2dtlr3IOtQp83ztijBAykR1IkoGU/preview" width="100%" height="250px" ></iframe>
-                   </div>
+                    <div class="p-img">
+                        <img style="display: none;" src="" alt="">
+                        <iframe src="https://drive.google.com/file/d/1I9ZX2dtlr3IOtQp83ztijBAykR1IkoGU/preview"
+                            width="100%" height="250px"></iframe>
+                    </div>
                 </div>
                 <div id="icons">
                     <div>
-                        <i class="fa-brands fa-github project-github-link " onclick="redirect('https://github.com/naveensharma8527/greedy-roof-9177')"></i>
-                        <i class="fa-solid fa-globe project-deployed-link" onclick="redirect('https://drive.google.com/file/d/1I9ZX2dtlr3IOtQp83ztijBAykR1IkoGU/view')"></i>
+                        <i class="fa-brands fa-github project-github-link "
+                            onclick="redirect('https://github.com/naveensharma8527/greedy-roof-9177')"></i>
+                        <i class="fa-solid fa-globe project-deployed-link"
+                            onclick="redirect('https://drive.google.com/file/d/1I9ZX2dtlr3IOtQp83ztijBAykR1IkoGU/view')"></i>
                     </div>
 
                 </div>
                 <div id="p-desc">
                     <h3 class="project-title"> Online Customer Service Support</h3>
                     <span class="project-description">
-                        Online Customer Service Center management system is designed to efficiently store and retrieve important information related to customers, issues, and operators. Customers can easily raise any issues they may be experiencing, and operators can provide them with solutions.
+                        Online Customer Service Center management system is designed to efficiently store and retrieve
+                        important information related to customers, issues, and operators. Customers can easily raise
+                        any issues they may be experiencing, and operators can provide them with solutions.
                     </span>
                 </div>
                 <div class="tech-stack">
                     <span class="project-tech-stack">
-                        TechStack: JAVA | MySQL  | Spring Boot | Hibernate
+                        TechStack: JAVA | MySQL | Spring Boot | Hibernate
                     </span>
                 </div>
-                
+
             </div>
         </div>
 
@@ -268,41 +312,45 @@
                 <div class="skills-img"><img src="img/postman.webp" alt="postman"></div>
                 <div class="skills-img"><img src="img/vscode.webp" alt="vscode"></div>
                 <div class="skills-img"><img src="img/git.webp" alt="git"></div>
-                <div class="skills-img"><img src="img/eclipse.webp "alt="eclipse"></div>
+                <div class="skills-img"><img src="img/eclipse.webp " alt="eclipse"></div>
             </div>
 
     </section>
 
-    <section id="github"  class="react-activity-calendar">
+    <section id="github" class="react-activity-calendar">
         <div class="title">Github Stats</div>
         <div class="divider"></div>
-        <div class="calendar ">
-            <!-- Loading stuff -->
-            Loading the data just for you.
-        </div>
-        <div id="stats">
-            <div >
-                <img  id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=gitesh8" alt="">
+        <div id="calender" class="redirect_to_github">
+            <div class="react-calendar">
+                <!-- github calender here -->
             </div>
-            <div>
-                <img  id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=gitesh8" alt="">
+            <div id="stats">
+                <div>
+                    <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=gitesh8"
+                        alt="">
+                </div>
+                <div>
+                    <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=gitesh8"
+                        alt="">
+                </div>
+                <div>
+                    <img id="github-top-langs"
+                        src="https://github-readme-stats.vercel.app/api/top-langs/?username=gitesh8&layout=compact&theme=merko"
+                        alt="gitesh8" />
+                </div>
             </div>
-            <div> 
-                <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gitesh8&layout=compact&theme=merko" alt="gitesh8" />
-            </div>
-        </div>
     </section>
-    
+
 
     <section id="contact">
 
         <div class="title">Contact</div>
         <div class="divider"></div>
         <div id="contact-1">
-           <div id="info">
-               <h4 id="contact-email">Email:- giteshsutar88@gmail.com</h4>
-               <h4 id="contact-phone" >Mobile :- +91 9372779418</h4>
-           </div>
+            <div id="info">
+                <h4 id="contact-email">Email:- giteshsutar88@gmail.com</h4>
+                <h4 id="contact-phone">Mobile :- +91 9372779418</h4>
+            </div>
         </div>
     </section>
     <footer>
@@ -312,29 +360,34 @@
     </footer>
 
 
-    
+
 </body>
 <script src="scripts/script.js"></script>
-<script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-</script>
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
 <script>
- 
-    // or enable responsive functionality:
-    GitHubCalendar(".calendar", "gitesh8", { responsive: true });
+document.querySelector(".react-calendar").innerHTML = CreateGitHubCalendar();
+    function CreateGitHubCalendar() {
+
+        return `
+    <img 
+    src="https://ssr-contributions-svg.vercel.app/_/gitesh8?format=svg&weeks=50"
+    style = "width: 100%" 
+    alt="Github calender"
+    />`;
+
+    }
 </script>
-    
-    <!-- Google tag (gtag.js) -->
+
+ <!-- scripts here -->
+ <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-L8EVEL9N4W"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-L8EVEL9N4W');
+    gtag('config', 'G-L8EVEL9N4W');
 </script>
+
 </html>
