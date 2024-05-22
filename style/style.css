@@ -577,3 +577,70 @@ footer>div {
         margin-bottom: 17rem;
     }
 }
+
+/* experience */
+/* General Section Styling */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.divider {
+    height: 4px;
+    width: 50px;
+    background-color: #333;
+    margin: 0 auto 30px;
+}
+
+/* Experience Section Styling */
+#experience-list {
+    display: flex;
+    justify-content: center;
+}
+
+.experience-card {
+    /* background-color: #f9f9f9; */
+    box-shadow: rgb(247 234 234 / 86%) 0px 5px 15px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    padding: 30px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.experience-details h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #fdfdfd;
+}
+
+.experience-details h4 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+.experience-duration {
+    display: block;
+    font-size: 1em;
+    color: #a5a5a5;
+    margin-bottom: 20px;
+}
+
+.experience-description {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .experience-card {
+        padding: 20px;
+        max-width: 90%;
+    }
+}
