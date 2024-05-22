@@ -7,13 +7,13 @@ function Closenav(){
 
 function Closenav1(){
     Closenav()
-    window.location.href='https://drive.google.com/u/0/uc?id=1xuZCvUudFWNYaa14yEYEqMCAJyGX4C-u&export=download';
-    window.open('https://drive.google.com/file/d/1xuZCvUudFWNYaa14yEYEqMCAJyGX4C-u/view?usp=sharing');;
+    window.location.href='https://drive.google.com/u/0/uc?id=13EuhAGwhTA008-PqJr3KuhhULC9VTJ3N&export=download';
+    window.open('https://drive.google.com/file/d/13EuhAGwhTA008-PqJr3KuhhULC9VTJ3N/view?usp=sharing');;
 }
 
 function redirect(url){
     window.open(url);
 }
 function resume(){
-    window.open('https://drive.google.com/file/d/1xuZCvUudFWNYaa14yEYEqMCAJyGX4C-u/view?usp=sharing');
+    window.open('https://drive.google.com/file/d/13EuhAGwhTA008-PqJr3KuhhULC9VTJ3N/view?usp=sharing');
 }
