@@ -321,11 +321,12 @@ header{
 /* Tools */
 
 #tool>div>div{
-    padding: 2px;
+    padding: 11px;
     display: flex;
     justify-content: center;
     height: 113px;
     width: 100px;
+    flex-direction: column;
     align-items: center;
     box-shadow: rgb(255, 255, 255) 0px 3px 8px;
     margin: auto;
