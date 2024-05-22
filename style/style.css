@@ -333,6 +333,9 @@ header{
     margin-bottom: 19px;
     
 }
+#tool>div>div:hover {
+    color: black;
+}
 #tool>div>div>img{
     padding: 7px;
 }
