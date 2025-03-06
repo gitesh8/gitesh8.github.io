@@ -648,4 +648,8 @@ footer>div {
         padding: 20px;
         max-width: 90%;
     }
+    #experience-list{
+        flex-direction: column;
+        align-items: center;
+    }
 }
