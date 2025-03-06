@@ -6,7 +6,7 @@ body {
 .skills-img.skills-card:hover {
     color: black;
 }
-.p1.project-card:hover {
+.p1.project-card:hover,.experience-card:hover {
     background: #00008b61;
     cursor: pointer;
 }
@@ -605,6 +605,7 @@ footer>div {
 #experience-list {
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 .experience-card {
